@@ -34,7 +34,7 @@ img{
     padding: 70px 0;
 }
 
-.menu-container {
+.menu {
     position: absolute;
     top: 0;
     left: 0;
@@ -51,11 +51,11 @@ img{
     font-weight: 800;
 
 }
-.menu .navbar ul li {
+.navbar ul li {
     position: relative;
     float: left;
 }
-.menu .navbar ul li a {
+.navbar ul li a {
     font-size:  18px;
     padding: 20px;
     color: #111111;
@@ -63,11 +63,12 @@ img{
 }
 #menu{
     display: none;
+   
 }
 .menu-icono{
     width: 25px;
 }
-.menu label{
+.menu-container label{
     cursor: pointer;
     display: none;
 
@@ -75,8 +76,8 @@ img{
 .submenu{
     position: relative;
 }
-.sunmenu #carrito{
-    display: block;
+.submenu #carrito{
+    display: none;
 }
 .submenu:hover #carrito{
     display: block;
